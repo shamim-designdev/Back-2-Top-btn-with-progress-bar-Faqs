@@ -1,0 +1,98 @@
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 2rem; /* Adjust font size for tablets */
+    }
+
+    h2 {
+        font-size: 1.25rem; /* Adjust font size for tablets */
+    }
+
+    p, li {
+        font-size: 1rem; /* Adjust font size for tablets */
+    }
+
+    article img {
+        max-width: 90%; /* Adjust image width for tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.75rem; /* Adjust font size for small tablets and large phones */
+    }
+
+    h2 {
+        font-size: 1.1rem; /* Adjust font size for small tablets and large phones */
+    }
+
+    p, li {
+        font-size: 0.95rem; /* Adjust font size for small tablets and large phones */
+    }
+
+    article img {
+        max-width: 85%; /* Adjust image width for small tablets and large phones */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.40rem; /* Adjust font size for mobile phones */
+    }
+
+    h2 {
+        font-size: 1.25rem; /* Adjust font size for mobile phones */
+    }
+
+    p, li {
+        font-size: 0.97rem; /* Adjust font size for mobile phones */
+    }
+
+    article img {
+        max-width: 95%; /* Ensure images are full width on mobile phones */
+    }
+}
+
+/* Media Queries FAQS Mobile Responsiveness */
+@media (max-width: 768px) {
+    .faq-tech {
+        padding: 30px; /* Reduced padding for smaller screens */
+    }
+
+    .faq-tech h2 {
+        font-size: 2rem; /* Smaller font size for mobile */
+        letter-spacing: 2px; /* Adjust letter spacing for smaller screens */
+    }
+
+    .faq-item {
+        margin-bottom: 15px; /* Smaller margin for compact display */
+    }
+
+    .faq-question {
+        font-size: 1.1rem; /* Slightly smaller font for better readability on mobile */
+        padding: 15px; /* Reduced padding for a more compact layout */
+    }
+
+    .faq-answer p {
+        font-size: 0.9rem; /* Slightly smaller font size for mobile readability */
+    }
+}
+
+@media (max-width: 480px) {
+    .faq-tech {
+        padding: 10px; /* Further reduced padding for very small screens */
+    }
+
+    .faq-tech h2 {
+        font-size: 1.2rem; /* Smaller font size for very small screens */
+    }
+
+    .faq-question {
+        font-size: 1rem; /* Further reduced font size for readability */
+        padding: 10px; /* Compact padding for small screens */
+    }
+
+    .faq-answer p {
+        font-size: 0.90rem; /* Further reduced font size for mobile */
+    }
+}
